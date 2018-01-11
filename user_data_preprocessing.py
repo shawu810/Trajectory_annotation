@@ -169,9 +169,9 @@ PATH2_TRAJECTORY_FILES = PATH_PREFIX + 'chicago_trajectories\\Original\\GPS_Time
     
 ## output
 PATH2_PROCESSED = PATH_PREFIX + 'trajectory_annotation\\processed_user\\'
-PATH2_CODEING = "C:\\Users\\fxw133\\Desktop\\chicago-movement\\data\\trajectory_annotation\\GEOCODE.pkle"
+PATH2_CODEING = ".\\VenueDB\\\\GEOCODE.pkle"
 
-PATH2_VENUEDB = "C:\\Users\\fxw133\\Desktop\\chicago-movement\\data\\grid_indexed_venues.pkle"
+PATH2_VENUEDB = ".\\VenueDB\\grid_indexed_venues.pkle"
 if PROCESS_USER:  
     ## preprocessing              
     udata = preprocessing(PATH2_TRAJECTORY_FILES, 
